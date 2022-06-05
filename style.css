@@ -17,6 +17,9 @@ button{
     font-size: 1rem;
     cursor: pointer;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 .main-head {
     background-color: #131c27;
@@ -39,6 +42,7 @@ nav ul {
     justify-content: space-around;
     list-style: none;
 }
+
 
 #logo {
     flex: 1 4 20rem;
