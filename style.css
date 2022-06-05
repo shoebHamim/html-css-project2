@@ -1,39 +1,56 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
 
-.main-head{
+.main-head {
     background-color: #131c27;
     color: white;
 }
 
-nav{
-    min-height: 10vh;
+nav {
+    min-height: 8vh;
     display: flex;
     width: 90%;
     margin: auto;
+    padding: 1rem;
     align-items: center;
-
+    /* border: 2px solid red; */
 }
-    
-nav ul{
+
+nav ul {
     display: flex;
     flex: 1 1 20rem;
     justify-content: space-around;
     list-style: none;
-    
 }
-#logo{
+
+#logo {
     flex: 1 2 20rem;
-   
-    
-
 }
 
-
+.hero {
+    background: url('./img/pexels-maksim-romashkin-6151861.jpg');
+    min-height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+.hero h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
