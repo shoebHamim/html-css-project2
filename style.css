@@ -3,7 +3,35 @@
     padding:0;
     box-sizing: border-box;
 }
-html{
-    font-size: 63.5%;
+a{
+    color: white;
+    text-decoration: none;
 }
+
+.main-head{
+    background-color: #131c27;
+    color: white;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+    
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    list-style: none;
+}
+#logo{
+    flex: 2 1 40rem;
+    
+
+}
+
 
