@@ -46,6 +46,7 @@ nav ul {
 
 #logo {
     flex: 1 4 20rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 .hero {
