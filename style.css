@@ -33,6 +33,7 @@ nav {
     margin: auto;
     padding: 1rem;
     align-items: center;
+    flex-wrap: wrap;
     /* border: 2px solid red; */
 }
 
@@ -47,6 +48,7 @@ nav ul {
 #logo {
     flex: 1 4 20rem;
     font-family: 'Dancing Script', cursive;
+    
 }
 
 .hero {
