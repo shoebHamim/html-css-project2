@@ -9,6 +9,15 @@ a {
     text-decoration: none;
 }
 
+button{
+    padding: .8rem 1rem;
+    background-color: #4c6e97;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 .main-head {
     background-color: #131c27;
     color: white;
