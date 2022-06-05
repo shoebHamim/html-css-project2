@@ -24,13 +24,13 @@ nav{
     
 nav ul{
     display: flex;
-    flex: 1 2 20rem;
+    flex: 1 1 20rem;
     justify-content: space-around;
     list-style: none;
     
 }
 #logo{
-    flex: 1 1 20rem;
+    flex: 1 2 20rem;
    
     
 
