@@ -24,12 +24,14 @@ nav{
     
 nav ul{
     display: flex;
-    flex: 1 1 40rem;
+    flex: 2 1 20rem;
     justify-content: space-around;
     list-style: none;
+    border: 2px solid red;
 }
 #logo{
-    flex: 1 2 40rem;
+    flex: 1 1 10rem;
+    border: 2px solid green;
     
 
 }
