@@ -88,6 +88,11 @@ nav ul {
     #logo{
         padding: .5rem; 
     }
+    .form-div{
+        padding: 15rem;
+        
+    }
+
     
 }
 
@@ -200,7 +205,7 @@ nav ul {
     height: 50vh;
     background-color: #4c6e9748;
     /* border: 2px solid red; */
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;
     
     flex-direction: column;
@@ -237,10 +242,17 @@ nav ul {
 
 
 
-footer{
+footer{ 
     background-color: #131c27;
     color: white;
     text-align: center;
-
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    height: 2.5vh;
+    padding: 0 1rem;
 }
 
