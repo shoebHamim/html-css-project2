@@ -186,7 +186,7 @@ nav ul {
 
 #contact{
     min-height: 100vh;
-    background:url('/img/pexels-mali-maeder-45987.jpg');
+    background:url('./img/pexels-mali-maeder-45987.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
