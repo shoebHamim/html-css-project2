@@ -78,23 +78,7 @@ nav ul {
     font-size: 1.5rem;
     padding: 1rem;
 }
-@media screen and (max-width: 760px){
-    html{
-        font-size:95% ;
-    }
-    nav{
-        text-align: center; 
-    }
-    #logo{
-        padding: .5rem; 
-    }
-    .form-div{
-        padding: 15rem;
-        
-    }
 
-    
-}
 
 #locations{
     min-height: 100vh;
@@ -254,5 +238,23 @@ footer{
 footer img{
     height: 2.5vh;
     padding: 0 1rem;
+}
+@media screen and (max-width: 760px){
+    html{
+        font-size:95% ;
+    }
+    nav{
+        text-align: center; 
+    }
+    #logo{
+        padding: .5rem; 
+    }
+    .form-div{
+        border: 2px solid red;
+        width: 80vw;
+        
+    }
+
+    
 }
 
