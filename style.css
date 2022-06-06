@@ -85,8 +85,7 @@ nav ul {
         text-align: center; 
     }
     #logo{
-        padding: .5rem;
-        
+        padding: .5rem; 
     }
     
 }
@@ -129,5 +128,59 @@ nav ul {
    to{
        transform: translate(0%,0%);
    }
+}
+.benefits{
+    min-height: 100vh;
+}
+.benefits-head{
+    height: 35vh;
+    background-color:#131c27 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.benefits-head h2{
+    padding: 2rem 0;
+}
+
+
+.card{
+    /* margin-top: 5rem; */
+    margin: 1rem;
+    width: 15rem;
+    height: 20rem;
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 8px silver;
+
+}
+.card-image{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #677587;
+    
+}
+.card-image img{
+    height: 60%;
+   
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.card-text{
+    height:12rem;
+    text-align: center;
+
+}
+.card-text h2{
+    margin: 1.8rem;
 }
 
