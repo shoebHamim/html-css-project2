@@ -70,3 +70,15 @@ nav ul {
     font-size: 1.5rem;
     padding: 1rem;
 }
+@media screen and (max-width: 750px){
+    html{
+        font-size:95% ;
+    }
+    nav{
+        text-align: center; 
+    }
+    #logo{
+        padding: 1rem;
+        /* border: 2px solid red; */
+    }
+}
